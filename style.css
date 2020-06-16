@@ -40,3 +40,9 @@ h1 {
 .ajisai4 path:hover {
   fill: #fff000;
 }
+
+.box {
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+}
