@@ -14,7 +14,7 @@ h1 {
   font-size: 2em;
   text-align: center;
 }
- 
+
 .bg {
   margin: 0;
 }
@@ -29,23 +29,24 @@ h1 {
   fill: #000;
 } */
 
-.ajisai4 path{
-  fill: #AB3AFF;
-  stroke: #fff;
-  stroke-width: 8px;
-  transition: fill 0.3s;
-  shadow: 5px 5px 5px;
+.ajisai {
+    text-align: center;
 }
 
-.ajisai4 path:hover {
-  fill: #fff000;
+.ajisai path {
+  /* fill: #AB3AFF; */
+  stroke: #fff;
+  stroke-width: 20px;
+  transition: fill 0.3s;
+  display: inline-block;
+}
+
+.ajisai path:hover {
+  fill: none;
 }
 
 .box {
   position: absolute;
   left: 50%;
   margin-left: -150px;
-  border: solid white 3px;
-  border-radius: 50%;
 }
-
